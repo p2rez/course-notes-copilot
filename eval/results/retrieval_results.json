@@ -1,0 +1,38 @@
+[
+  {
+    "retriever": "dense",
+    "chunking": "fixed",
+    "n": 16,
+    "hit@1": 0.25,
+    "hit@3": 0.625,
+    "hit@5": 0.688,
+    "mrr": 0.443
+  },
+  {
+    "retriever": "dense",
+    "chunking": "page",
+    "n": 16,
+    "hit@1": 0.562,
+    "hit@3": 0.75,
+    "hit@5": 0.938,
+    "mrr": 0.693
+  },
+  {
+    "retriever": "hybrid",
+    "chunking": "fixed",
+    "n": 16,
+    "hit@1": 0.188,
+    "hit@3": 0.688,
+    "hit@5": 0.75,
+    "mrr": 0.443
+  },
+  {
+    "retriever": "hybrid",
+    "chunking": "page",
+    "n": 16,
+    "hit@1": 0.625,
+    "hit@3": 0.875,
+    "hit@5": 1.0,
+    "mrr": 0.768
+  }
+]
